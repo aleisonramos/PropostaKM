@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #c5ebd6;
+    text-align: justify;
+}
+
+div#proposta-comercial {
+    
+}
+
+header {
+    background-color: rgb(34, 107, 56);
+    border-bottom: 10px;
+    padding: 10px;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+header a img{
+    width: 150px;
+
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+div.cliente {
+    background-color: rgb(115, 247, 155);
+    min-width: 300px;
+    max-width: 900px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+div.pacotes {
+    background-color: rgb(185, 214, 194);
+    min-width: 300px;
+    max-width: 900px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div.licencas {
+    background-color: rgb(115, 247, 155);
+    min-width: 300px;
+    max-width: 900px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+div#propostas {
+    
+
+}
+section.bronze {
+    background-color: white;
+}
+
+p.bron {
+    background-color: green;
+}
+
+div.turbine {
+    background-color: rgb(115, 247, 155);
+    min-width: 300px;
+    max-width: 900px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+div.implantacao {
+    background-color: rgb(185, 214, 194);
+    min-width: 300px;
+    max-width: 900px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p.enviar {
+    text-align: center;
+}
