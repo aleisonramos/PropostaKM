@@ -78,10 +78,33 @@ div#propostas {
 }
 section.bronze {
     background-color: white;
+    min-width: 50px;
+    max-width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 p.bron {
     background-color: green;
+    min-width: 50px;
+    max-width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    margin: auto;
+    text-align: justify;
+}
+
+td {
+    margin: 15px 0px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+    
 }
 
 div.turbine {
