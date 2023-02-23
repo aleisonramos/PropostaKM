@@ -136,11 +136,11 @@ td.tubpct {
 }
 
 img.ind2 {
-        float: left;
-        border: transparent thin solid;
-        padding: 2px;
-        margin: 0px 5px 5px 0;
-        max-width: 186px;
+    float: left;
+    border: transparent thin solid;
+    padding: 2px;
+    margin: 0px 5px 5px 0;
+    max-width: 186px;
 }
 
 p.tubvl {
@@ -172,6 +172,30 @@ p.tubdesc {
     padding: 5px;
 }
 
+div.mensal {
+    background-color: #eeeeeeff;
+    min-width: 300px;
+    max-width: 900px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+p.mensali {
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    display: inline;
+    float: left;
+    font-size: 2em;
+    margin-left: 10%;
+}
+
+div.mensal > p.iobs {
+    text-align: right;
+}
+
 div.implantacao {
     background-color: rgb(185, 214, 194);
     min-width: 300px;
@@ -182,19 +206,7 @@ div.implantacao {
     text-align: center;
 }
 
-div.mensal {
-    background-color: #eeeeeeff;
-    min-width: 300px;
-    max-width: 900px;
-    border-radius: 10px;
-    padding: 10px;
-    padding-bottom: 60px;
-    margin-bottom: 10px;
-}
 
-p.obs {
-    text-align: right;
-}
 
 p.enviar {
     text-align: center;
