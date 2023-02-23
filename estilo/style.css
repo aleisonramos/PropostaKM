@@ -45,7 +45,7 @@ main {
 }
 
 div.cliente {
-    background-color: rgb(115, 247, 155);
+    background-color: #b6d7a8ff;
     min-width: 300px;
     max-width: 900px;
     border-radius: 10px;
@@ -54,16 +54,17 @@ div.cliente {
 }
 
 div.pacotes {
-    background-color: rgb(185, 214, 194);
+    background-color: #b6d7a8ff;
     min-width: 300px;
-    max-width: 900px;
+    max-width: 1500px;
     border-radius: 10px;
     padding: 10px;
+    padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
 div.licencas {
-    background-color: rgb(115, 247, 155);
+    background-color: #eeeeeeff;
     min-width: 300px;
     max-width: 900px;
     border-radius: 10px;
@@ -72,10 +73,6 @@ div.licencas {
     text-align: center;
 }
 
-div#propostas {
-    
-
-}
 section.bronze {
     background-color: white;
     min-width: 50px;
@@ -83,20 +80,28 @@ section.bronze {
     height: 200px;
     padding-bottom: 10px;
     border-radius: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 p.bron {
-    background-color: green;
+    background-color: #167b37;
     min-width: 50px;
     max-width: 200px;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
+    font-weight: bolder;
+    font-size: 1.6em;
+    color: white;
+}
+section.bronze p {
+    font-size: 0.8em;
 }
 
-input {
-    margin: auto;
-    text-align: justify;
+section.bronze > p.valor {
+    font-weight: bold;
+    font-size: 1.6em;
 }
 
 td {
@@ -104,17 +109,66 @@ td {
     text-align: justify;
     font-size: 1em;
     line-height: 2em;
-    
+    padding: 10px;
 }
 
 div.turbine {
-    background-color: rgb(115, 247, 155);
+    background-color: #eeeeeeff;
     min-width: 300px;
     max-width: 900px;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+table.turbine-add {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+td.tubpct {
+    background-color: #6aa84fff;
+    border-radius: 30px 0px 30px 0px;
+    min-width: 198px;
+    padding-bottom: 20px;
+}
+
+img.ind2 {
+        float: left;
+        border: transparent thin solid;
+        padding: 2px;
+        margin: 0px 5px 5px 0;
+        max-width: 186px;
+}
+
+p.tubvl {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+p.tubdesc {
+    font-size: 0.5em;
+    text-align: right;
+    margin-top: -15px;
+}
+
+.ind {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.vend {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.dash {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
 }
 
 div.implantacao {
@@ -127,6 +181,23 @@ div.implantacao {
     text-align: center;
 }
 
+div.mensal {
+    background-color: #eeeeeeff;
+    min-width: 300px;
+    max-width: 900px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 60px;
+    margin-bottom: 10px;
+}
+
+
+
 p.enviar {
     text-align: center;
+}
+
+input {
+    margin: auto;
+    text-align: justify;
 }
