@@ -222,20 +222,51 @@ div.desc > p.setup {
     font-weight: bolder;
     display: inline;
     float: left;
-    margin-left: 5%;
+    margin-left: 2%;
+    margin-top: -10px;
 }
 
 div.desc > p.extra1 {
-    background-color: #167b37;
-    
-    text-align: right;
-    font-weight: bolder;
+    background-color: #eeeeeeff;
+    min-width: 90px;
+    max-width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 73%;
     
 }
 
 div.desc > p.extra2 {
-    text-align: right;
+    text-align: center;
+    margin-left: 62%;
+    margin-top: -20px;
+    padding-bottom: 20px;
 }
+
+div.implan {
+    background-color: #eeeeeeff;
+    min-width: 300px;
+    max-width: 900px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+p.vlimp {
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    display: inline;
+    float: left;
+    font-size: 2em;
+}
+
+div.implan > p.iobsimp {
+    text-align: right;
+
 
 p.enviar {
     text-align: center;
