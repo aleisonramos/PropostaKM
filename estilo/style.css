@@ -196,8 +196,18 @@ div.mensal > p.iobs {
     text-align: right;
 }
 
+section#imp {
+    background-color: #b6d7a8ff;
+    min-width: 300px;
+    max-width: 1500px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
 div.implantacao {
-    background-color: rgb(185, 214, 194);
+    background-color: #eeeeeeff;
     min-width: 300px;
     max-width: 900px;
     border-radius: 10px;
@@ -206,10 +216,31 @@ div.implantacao {
     text-align: center;
 }
 
+div.desc > p.setup {
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    display: inline;
+    float: left;
+    margin-left: 5%;
+}
 
+div.desc > p.extra1 {
+    background-color: #167b37;
+    
+    text-align: right;
+    font-weight: bolder;
+    
+}
+
+div.desc > p.extra2 {
+    text-align: right;
+}
 
 p.enviar {
     text-align: center;
+    float: right;
+    display: inline;
 }
 
 input {
