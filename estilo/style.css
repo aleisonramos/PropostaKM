@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:  #c5ebd6;
+    background-color:  #d9ead3ff;
     text-align: justify;
 }
 
@@ -16,19 +16,28 @@ div#proposta-comercial {
 }
 
 header {
-    background-color: rgb(34, 107, 56);
-    border-bottom: 10px;
-    padding: 10px;
+    min-height: 100px;
+    padding-top: 30px;
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 30px;
 }
 
 header h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: white;
+    color: black;
+    font-size: 3em;
+    margin-left: 28%;
+    padding: 10px;
 }
 
 header a img{
-    width: 150px;
+    width: 200px;
+    margin-left: 15%;
+    display: inline;
 
 }
 
@@ -46,7 +55,7 @@ main {
 
 div.cliente {
     background-color: #b6d7a8ff;
-    min-width: 300px;
+    min-width: 150px;
     max-width: 900px;
     border-radius: 10px;
     padding: 15px;
@@ -55,7 +64,7 @@ div.cliente {
 
 div.pacotes {
     background-color: #b6d7a8ff;
-    min-width: 300px;
+    min-width: 150px;
     max-width: 1500px;
     border-radius: 10px;
     padding: 10px;
@@ -65,7 +74,7 @@ div.pacotes {
 
 div.licencas {
     background-color: #eeeeeeff;
-    min-width: 300px;
+    min-width: 150px;
     max-width: 900px;
     border-radius: 10px;
     padding: 10px;
@@ -86,22 +95,25 @@ section.bronze {
 
 p.bron {
     background-color: #167b37;
-    min-width: 50px;
-    max-width: 200px;
+    min-width: 100px;
+    max-width: 400px;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
     font-weight: bolder;
-    font-size: 1.6em;
     color: white;
 }
 section.bronze p {
-    font-size: 0.8em;
+    font-size: 0.7em;
+    min-width: 120px;
+    max-width: 300px;
 }
 
 section.bronze > p.valor {
     font-weight: bold;
     font-size: 1.6em;
+    min-width: 120px;
+    max-width: 300px;
 }
 
 td {
@@ -110,6 +122,9 @@ td {
     font-size: 1em;
     line-height: 2em;
     padding: 10px;
+    min-width: 100px;
+    max-width: 400px;
+    
 }
 
 div.turbine {
@@ -135,6 +150,14 @@ td.tubpct {
     padding-bottom: 20px;
 }
 
+div#add {
+    overflow-x: auto;
+}
+
+div#propostas {
+    overflow-x: auto;
+}
+
 img.ind2 {
     float: left;
     border: transparent thin solid;
@@ -157,7 +180,6 @@ p.tubdesc {
 .ind {
     text-align: center;
     font-size: 1.5em;
-    padding: 5px;
 }
 
 .vend {
@@ -235,7 +257,6 @@ div.desc > p.extra1 {
     margin-bottom: 10px;
     text-align: center;
     margin-left: 73%;
-    
 }
 
 div.desc > p.extra2 {
@@ -243,6 +264,17 @@ div.desc > p.extra2 {
     margin-left: 62%;
     margin-top: -20px;
     padding-bottom: 20px;
+}
+
+div.vls {
+    background-color: #eeeeeeff;
+    min-width: 90px;
+    max-width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 15%;
 }
 
 div.implan {
@@ -262,19 +294,18 @@ p.vlimp {
     display: inline;
     float: left;
     font-size: 2em;
+    margin-left: 10%;
+    color: #274e13;
 }
 
 div.implan > p.iobsimp {
     text-align: right;
+}
 
+footer {
+    margin: auto;
+}
 
 p.enviar {
     text-align: center;
-    float: right;
-    display: inline;
-}
-
-input {
-    margin: auto;
-    text-align: justify;
 }

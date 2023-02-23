@@ -9,169 +9,171 @@
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <div id="proposta-comercial">
-        <header>
-            <h1>
-                Proposta Comercial
-            </h1>
-            <a href="https://www.kmsistemas.com.br/" target="_blank"><img src="imagens/Logo KM branco.png" alt="logokm"></a>
-        </header>
-        <main>
-            <section id="top">
-                <div class="cliente">
-                    <p>
-                        Olá, <strong>"Marcos"</strong>, tudo bem?
-                    </p>
-                    <p>
-                        Conforme conversamos segue nossa proposta, ela tem validade de 10 (dez) dias.
-                    </p>
-                </div>
-                <div class="pacotes">
-                    <div class="licencas">
-                        <h2>
-                            Pacotes de Licença - Mentor Soft
-                        </h2>
+    <form action="proposta.php" method="post" autocomplete="on">
+        <div id="proposta-comercial">
+            <header>
+                <h1>
+                    Proposta<br>Comercial
+                </h1>
+                <a href="https://www.kmsistemas.com.br/" target="_blank"><img src="imagens/Logo KM Sistemas.png" alt="logokm"></a>
+            </header>
+            <main>
+                <section id="top">
+                    <div class="cliente">
+                        <p>
+                            Olá, <strong>"Marcos"</strong>, tudo bem?
+                        </p>
+                        <p>
+                            Conforme conversamos segue nossa proposta, ela tem validade de 10 (dez) dias.
+                        </p>
                     </div>
-                    <div id="propostas">
-                        <div>
-                            <table>
-                                <td>
-                                    <section class="bronze">
-                                        <p class="bron">Bronze</p>
-                                        <p>Usuário Adicional R$ 95,00</p>
-                                        <p>CNPJ Adicional R$ 160,00</p>
-                                        <input type="checkbox" name="basico" id="bronze"> <label for="bronze"></label>
-                                        <p class="valor">R$ 690,00 /mês</p>
-                                    </section>
-                                </td>
-                                <td>
-                                    <section class="bronze">
-                                        <p class="bron">Prata</p>
-                                        <p>Usuário Adicional R$ 85,00</p>
-                                        <p>CNPJ Adicional R$ 150,00</p>
-                                        <input type="checkbox" name="basico2" id="prata"> <label for="prata"></label>
-                                        <p class="valor">R$ 800,00 /mês</p>
-                                    </section>
-                                </td>
-                                <td>
-                                    <section class="bronze">
-                                        <p class="bron">Ouro</p>
-                                        <p>Usuário Adicional R$ 75,00</p>
-                                        <p>CNPJ Adicional R$ 140,00</p>
-                                        <input type="checkbox" name="basico3" id="ouro"> <label for="ouro"></label>
-                                        <p class="valor">R$ 990,00 /mês</p>
-                                    </section>
-                                </td>
-                                <td>
-                                    <section class="bronze">
-                                        <p class="bron">Platinum</p>
-                                        <p>Usuário Adicional R$ 65,00</p>
-                                        <p>CNPJ Adicional R$ 110,00</p>
-                                        <input type="checkbox" name="basico4" id="platinum"> <label for="platinum"></label>
-                                        <p class="valor">R$ 1.430,00 /mês</p>
-                                    </section>
-                                </td>
-                            </table>
-                    </div>
-                </div>
-                <div class="turbine">
+                    <div class="pacotes">
+                        <div class="licencas">
                             <h2>
-                                Turbine seu Pacote
+                                Pacotes de Licença - Mentor Soft
                             </h2>
                         </div>
-                        <div>
-                            <table class="turbine-add">
-                                <td class="tubpct">
-                                    <section class="ind">
-                                        <img src="imagens/industrial.png" class="ind2" alt="kmindustrial">
-                                        <p>
-                                            KM Industrial<br>
-                                            Mobile
-                                        </p>
-                                        <p class="tubvl">R$ 150,00</p>
-                                        <p class="tubdesc">por empresa</p>
-                                        <input type="checkbox" name="basico" id="bronze"> <label for="bronze"></label>
-                                    </section>
-                                </td>
-                                <td class="tubpct">
-                                    <section class="vend">
-                                        <img src="imagens/kmvendas.jpg" class="ind2" alt="kmvendas">
-                                        <p>
-                                            KM Vendas<br>
-                                            Mobile
-                                        </p>
-                                        <p class="tubvl">R$ 55,00</p>
-                                        <p class="tubdesc">por acesso</p>
-                                        <input type="checkbox" name="basico" id="bronze"> <label for="bronze"></label>
-                                </td>
-                                <td class="tubpct">
-                                    <section class="dash">
-                                        <img src="imagens/DASHBOARD.png" class="ind2" alt="dashboard">
-                                        <p>
-                                            Dashboard<br>
-                                            WEB
-                                        </p>
-                                        <p class="tubvl">R$ 25,00</p>
-                                        <p class="tubdesc">por usuário</p>
-                                        <input type="checkbox" name="basico" id="bronze"> <label for="bronze"></label>
-                                    </section>
-                                </td>
-                            </table>
-                        </div>
-                        </div>
-                        <div class="mensalidade">
-                            <div class="mensal">
-                                <p class="mensali">
-                                    Mensalidade<br>
-                                    R$ 990,00
-                                </p>
-                                <p class="iobs">
-                                    <label for="iobs">Observações</label><br>
-                                    <textarea name="obs" id="iobs" cols="50" rows="4" style="resize: none">• + 02 Usuários Adicionais;
+                        <div id="propostas">
+                                <table>
+                                    <td>
+                                        <section class="bronze">
+                                            <p class="bron">Começo</p>
+                                            <p>Usuário Adicional R$ 95,00</p>
+                                            <p>CNPJ Adicional R$ 160,00</p>
+                                            <input type="radio" name="basico" id="bronze"> <label for="bronze"></label>
+                                            <p class="valor">R$ 690,00 /mês</p>
+                                        </section>
+                                    </td>
+                                    <td>
+                                        <section class="bronze">
+                                            <p class="bron">Essencial</p>
+                                            <p>Usuário Adicional R$ 85,00</p>
+                                            <p>CNPJ Adicional R$ 150,00</p>
+                                            <input type="radio" name="basico" id="prata"> <label for="prata"></label>
+                                            <p class="valor">R$ 800,00 /mês</p>
+                                        </section>
+                                    </td>
+                                    <td>
+                                        <section class="bronze">
+                                            <p class="bron">Impulso</p>
+                                            <p>Usuário Adicional R$ 75,00</p>
+                                            <p>CNPJ Adicional R$ 140,00</p>
+                                            <input type="radio" name="basico" id="ouro"> <label for="ouro"></label>
+                                            <p class="valor">R$ 990,00 /mês</p>
+                                        </section>
+                                    </td>
+                                    <td>
+                                        <section class="bronze">
+                                            <p class="bron">Escala</p>
+                                            <p>Usuário Adicional R$ 65,00</p>
+                                            <p>CNPJ Adicional R$ 110,00</p>
+                                            <input type="radio" name="basico" id="platinum"> <label for="platinum"></label>
+                                            <p class="valor">R$ 1.430,00 /mês</p>
+                                        </section>
+                                    </td>
+                                </table>
+                    </div>
+                    <div class="turbine">
+                                <h2>
+                                    Turbine seu Pacote
+                                </h2>
+                            </div>
+                            <div id="add">
+                                <table class="turbine-add">
+                                    <td class="tubpct">
+                                        <section class="ind">
+                                            <img src="imagens/industrial.png" class="ind2" alt="kmindustrial">
+                                            <p>
+                                                KM Industrial<br>
+                                                Mobile
+                                            </p>
+                                            <p class="tubvl">R$ 150,00</p>
+                                            <p class="tubdesc">por empresa</p>
+                                            <input type="radio" name="tubineopacote" id="kmind"> <label for="kmindustrial"></label>
+                                        </section>
+                                    </td>
+                                    <td class="tubpct">
+                                        <section class="vend">
+                                            <img src="imagens/kmvendas.jpg" class="ind2" alt="kmvendas">
+                                            <p>
+                                                KM Vendas<br>
+                                                Mobile
+                                            </p>
+                                            <p class="tubvl">R$ 55,00</p>
+                                            <p class="tubdesc">por acesso</p>
+                                            <input type="radio" name="tubineopacote" id="kmvendas"> <label for="kmvendas"></label>
+                                    </td>
+                                    <td class="tubpct">
+                                        <section class="dash">
+                                            <img src="imagens/DASHBOARD.png" class="ind2" alt="dashboard">
+                                            <p>
+                                                Dashboard<br>
+                                                WEB
+                                            </p>
+                                            <p class="tubvl">R$ 25,00</p>
+                                            <p class="tubdesc">por usuário</p>
+                                            <input type="radio" name="tubineopacote" id="dashboard"> <label for="dashboard"></label>
+                                        </section>
+                                    </td>
+                                </table>
+                            </div>
+                            </div>
+                            <div class="mensalidade">
+                                <div class="mensal">
+                                    <p class="mensali">
+                                        Mensalidade<br>
+                                        R$ 990,00
+                                    </p>
+                                    <p class="iobs">
+                                        <label for="iobs">Observações</label><br>
+                                        <textarea name="obs" id="iobs" cols="30" rows="4" style="resize: none">• + 02 Usuários Adicionais;
 • 1ª mensalidade: 30 dias.
-                                        </textarea>
-                                </p>
-                            </div>    
+                                            </textarea>
+                                    </p>
+                                </div>
+                        </div>
+                </section>
+                <section id="imp">
+                    <div>
+                        <div class="implantacao">
+                            <h2>
+                                Implantação
+                            </h2>
+                        </div>
                     </div>
-            </section>        
-            <section id="imp">
-                <div>
-                    <div class="implantacao">
-                        <h2>
-                            Implantação
-                        </h2>
-                    </div>
-                </div>
-                <div class="desc">
-                    <p class="setup">setup <br>Parametrização<br>-----------<br>
-                    Implantação<br>35 horas</p>
-                    <p class="extra1">Pacotes Extras</p><br>
-                    <p class="extra2">
-                        <img src="imagens/TRAY.png" alt="tray">
-                        Integração  -- <strong>R$ 2.500,00</strong>
-                    </p>
-                </div>
-                <div class="implant">
-                    <div class="implan">
-                        <p class="vlimp">
-                            Implantação<br>
-                            R$ 5.800,00
-                        </p>
-                        <p class="iobsimp">
-                            <label for="iobsimp">Observações</label><br>
-                            <textarea name="obs" id="iobsimp" cols="50" rows="4" style="resize: none">• + 02 Usuários Adicionais;
-• 1ª mensalidade: 30 dias.
-                                </textarea>
+                    <div class="desc">
+                        <p class="setup">Setup <br>Parametrização<br>-----------<br>
+                        Implantação<br>35 horas</p>
+                        <p class="extra1">Pacotes Extras</p><br>
+                        <p class="extra2">
+                            <img src="imagens/TRAY.png" alt="tray">
+                            Integração  -- <strong>R$ 2.500,00</strong>
                         </p>
                     </div>
-            </section>
-        </main>
-    <footer>
+                    <div class="implant">
+                        <div class="implan">
+                            <p class="vlimp">
+                                Implantação<br>
+                                R$ 5.800,00
+                            </p>
+                            <p class="iobsimp">
+                                <label for="iobsimp">Observações</label><br>
+                                <textarea name="obs" id="iobsimp" cols="30" rows="4" style="resize: none">• Entrada + 05 parcelas;
+• Início da implantação em até 20 dias.
+                                    </textarea>
+                            </p>
+                        </div>
+                </section>
+            </main>
         </div>
         <p class="enviar">
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
+    </form>
+    <footer>
+        </div>
+        
     </footer>
 </body>
 </html>
