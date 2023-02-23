@@ -12,16 +12,22 @@
     <form action="proposta.php" method="post" autocomplete="on">
         <div id="proposta-comercial">
             <header>
-                <h1>
-                    Proposta<br>Comercial
-                </h1>
-                <a href="https://www.kmsistemas.com.br/" target="_blank"><img src="imagens/Logo KM Sistemas.png" alt="logokm"></a>
+                <div class="titulo">
+                    <h1>
+                        Proposta<br>Comercial
+                    </h1>
+                </div>
+                <div class="logokm">
+                    <a href="https://www.kmsistemas.com.br/" target="_blank"><img src="imagens/Logo KM Sistemas.png" alt="logokm">
+                    </a>
+                </div>
             </header>
             <main>
                 <section id="top">
                     <div class="cliente">
                         <p>
-                            Olá, <strong>"Marcos"</strong>, tudo bem?
+                            Olá,<label for="icliente"></label>
+                                <textarea name="cliente" id="icliente" cols="16" rows="1" style="resize: none">Marcos</textarea>, tudo bem?
                         </p>
                         <p>
                             Conforme conversamos segue nossa proposta, ela tem validade de 10 (dez) dias.

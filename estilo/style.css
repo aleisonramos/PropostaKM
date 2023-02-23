@@ -21,24 +21,27 @@ header {
     min-width: 300px;
     max-width: 900px;
     margin: auto;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
     padding: 30px;
 }
 
-header h1 {
+div.titulo {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: black;
-    font-size: 3em;
-    margin-left: 28%;
-    padding: 10px;
+    font-size: 1.5em;
+    margin-right: 16%;
+    padding: 20px;
+    float: right;
 }
 
-header a img{
-    width: 200px;
-    margin-left: 15%;
-    display: inline;
-
+div.logokm a img{
+    min-width: 100px;
+    max-width: 200px;
+    margin-left: 5%;
+    padding: 10px;
+    display: inline-block;
+    float: left;
 }
 
 main {
