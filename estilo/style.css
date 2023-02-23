@@ -114,12 +114,13 @@ td {
 
 div.turbine {
     background-color: #eeeeeeff;
-    min-width: 300px;
-    max-width: 900px;
+    min-width: 100px;
+    max-width: 400px;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
     text-align: center;
+    margin-left: 25%;
 }
 
 table.turbine-add {
@@ -191,7 +192,9 @@ div.mensal {
     margin-bottom: 10px;
 }
 
-
+p.obs {
+    text-align: right;
+}
 
 p.enviar {
     text-align: center;
